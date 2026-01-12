@@ -6,4 +6,3 @@ df = pd.DataFrame(data)
 
 print("--- 아나콘다 연동 성공! ---")
 print(df)
-

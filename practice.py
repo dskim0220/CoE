@@ -2,7 +2,7 @@ import langchain
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB7g1C9eS9TGR3KcKCEI6aZkGjOZfxKYmA"
+os.environ["GOOGLE_API_KEY"] = ""
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.0-pro",
